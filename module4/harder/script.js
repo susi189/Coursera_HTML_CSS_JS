@@ -57,9 +57,9 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
     // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
     // name in the loop.
     if (firstLetter === "j") {
-      console.log(byeSpeaker.speak(names[i]));
+      byeSpeaker.speak(names[i]);
     } else {
-      console.log(helloSpeaker.speak(names[i]));
+      helloSpeaker.speak(names[i]);
     }
   }
 

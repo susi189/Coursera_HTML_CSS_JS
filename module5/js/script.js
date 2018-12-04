@@ -115,9 +115,9 @@ function buildAndShowHomeHTML (categories) {
       // Hint: you need to surround the chosen category short name with something before inserting
       // it into the home html snippet.
       //
-      var homeHtmlToInsertIntoMainPage = insertProperty(html, "name", name);
+      var homeHtmlToInsertIntoMainPage = insertProperty(categories);
 
-      insertHtml("#main-content", homeHtmlToInsertIntoMainPage)
+      insertHtml("#main-content", homeHtmlToInsertIntoMainPage);
 
       // TODO: STEP 4: Insert the the produced HTML in STEP 3 into the main page
       // Use the existing insertHtml function for that purpose. Look through this code for an example

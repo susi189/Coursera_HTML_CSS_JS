@@ -115,7 +115,7 @@ function buildAndShowHomeHTML (categories) {
       // Hint: you need to surround the chosen category short name with something before inserting
       // it into the home html snippet.
       //
-      var homeHtmlToInsertIntoMainPage = insertProperty(loadMenuCategories, "name", categoryMenuItems.category.name);
+      var homeHtmlToInsertIntoMainPage = insertProperty(html, "name", name);
 
       insertHtml("#main-content", homeHtmlToInsertIntoMainPage)
 
